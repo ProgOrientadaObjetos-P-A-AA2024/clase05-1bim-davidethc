@@ -10,6 +10,7 @@ import paquete01.Calificacion;
 public class EjemploTres {
     public static void main(String[] args) {
         // crear un arreglo de objetos de tipo Calificacion
+        //esto es un objeto anonimo  es una instancia de una clase que se crea sin una referencia explícita.
         Calificacion [] calificaciones = {new Calificacion(10, "Computación"), 
             new Calificacion(9, "Electrónica")};
         
