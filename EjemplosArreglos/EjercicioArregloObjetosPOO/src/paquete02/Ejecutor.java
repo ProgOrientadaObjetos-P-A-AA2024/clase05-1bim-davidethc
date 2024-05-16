@@ -41,7 +41,7 @@ public class Ejecutor {
         calificacionesEstudiante = new Calificacion[numerocalificaciones];
 
         for (int i = 0; i < numerocalificaciones; i++) {
-            System.out.printf("Ingrese nombre de materia %d\n", i + 1);
+            System.out.printf("Ingrese nombre de mdateria %d\n", i + 1);
             materia = entrada.nextLine();
             System.out.printf("Ingrese calificación %d\n", i + 1);
             nota = entrada.nextDouble();

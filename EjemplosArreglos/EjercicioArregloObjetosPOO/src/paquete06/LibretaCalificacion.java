@@ -19,6 +19,7 @@ public class LibretaCalificacion {
     public LibretaCalificacion(String n, Calificacion[] c) {
         estudiante = n;
         calificaciones = c;
+  
     }
 
     public void establecerEstudiante(String n) {

@@ -17,7 +17,10 @@ public class Ejecutor {
         Profesor profesor2 = new Profesor("Gregory Walsh", "nombramiento");
         Profesor profesor3 = new Profesor("Kevin Page", "nombramiento");
         
-                
+        //como el constructor yya tiene valores enotnces con el establecer lo sobreescribnimos
+        c1.establecerProfesor(profesor1);
+            c1.establecerProfesor(profesor2);
+               c1.establecerProfesor(profesor3);     
         Calificacion [] lista = {c1, c2, c3}; 
         
         LibretaCalificacion libreta1 = new LibretaCalificacion("Justin Powers",

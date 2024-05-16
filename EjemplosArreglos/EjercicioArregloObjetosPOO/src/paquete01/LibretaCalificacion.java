@@ -31,7 +31,8 @@ public class LibretaCalificacion {
         double suma = 0;
         
         for (int i = 0; i < obtenerCalificaciones().length; i++) {
-            suma = suma + obtenerCalificaciones()[i].obtenerNota();
+            Calificacion c = obtenerCalificaciones()[i];
+           suma = suma +c.obtenerNota();
             
         }
         
